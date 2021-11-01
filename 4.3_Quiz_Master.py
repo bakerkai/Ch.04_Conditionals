@@ -27,11 +27,11 @@ else:
 print("You did good on the first one... how here's some hard ones ")
 
 q2 = input("How many cores and threads do the IMACs have?(Bryce)")
-if q2 == '2 cores and 4 threads':
+if q2 == '4 cores and 8 threads':
     print("Good job, clearly did research")
     score += 1
 else:
-    print("Wow Bryce, I'd expect you to know that one. (2 cores and 4 threads) ")
+    print("Wow Bryce, I'd expect you to know that one. (4 cores and 8 threads) ")
 
 q3 = input("Should you study for a test?")
 if q3 == 'true' or q3 == 'True' or q3 =="yes" or q3 == 'Yes':
